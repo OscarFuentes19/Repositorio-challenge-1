@@ -6,37 +6,36 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Encriptador y Desencriptador</title>  
-        <link rel="icon" href="riddle.jpg">
+        <link rel="icon" href="Imágenes/riddle2.jpg">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="Style-Encriptador.css">
         <script type="text/javascript" src="funciones.js"></script>
     </head>
 
-    <header>
-        <a href="https://www.aluracursos.com/"><img id="alura" src="alura.png"></a>
-        <a href="https://www.oracle.com/mx/education/oracle-next-education/"><img id="one" src="one.png"></a>
+    <header class="enlaces">
+        <a href="https://www.aluracursos.com/"><img id="alura" src="Imágenes/alura.png"></a>
+        <a href="https://www.oracle.com/mx/education/oracle-next-education/"><img id="one" src="Imágenes/one.png"></a>
     </header>
 
     <body>
        
         <div id="cuerpo">
-            
             <input type="text" id="textoencriptado" placeholder="Ingresa el texto a encriptar aqui" onkeypress="return (event.charCode >= 97 && event.charCode <= 122 || event.charCode ==32)"></input>
-          
             <textarea id="textboxdesencriptar" placeholder="Ningun mensaje fue encontrado"></textarea>
-            <img id="Muneco" src="riddle2.jpg">
-            <p class="textoinformacion"> <img class="textoicono" src="exclamacion.png" alt="signo exclamacion"/> Solo letras minúsculas y sin acentos </p>
+            <img id="Muneco" src="Imágenes/riddle2.jpg">
+            <p class="textoinformacion"> <img class="textoicono" src="Imágenes/exclamacion.png" alt="signo exclamacion"/> Solo letras minúsculas y sin acentos </p>
+        </div>
         <div id="botones"> 
             <button type="button" id="botonencriptar">Encriptar</button>
             <button type="button" id="botondesencriptar" >Desencriptar</button>  
             <button type="button" id="botoncopy">Copiar</button>
             <button type="button" id="botonlimpiar">Limpiar</button>
         </div>
-        </div>
+        
         <footer id="piedepagina">
-            <a  href="https://www.linkedin.com/in/oscar-fuentes-rios/"><img class="logolk" src="linkedIn.png" alt="logo LinkedIn"></a>
-              <p class="foot">Elaborado por Oscar Fuentes</p> 
-            <a  href="https://www.linkedin.com/in/oscar-fuentes-rios/" ><img class="logogit" src="github-logo.png" alt="logo Git"></a>
+            <a  href="https://www.linkedin.com/in/oscar-fuentes-rios/"><img class="logolk" src="Imágenes/linkedIn.png" alt="logo LinkedIn"></a>
+            <p class="foot">Elaborado por Oscar Fuentes</p> 
+            <a  href="https://github.com/OscarFuentes19/Repositorio-challenge-1" ><img class="logogit" src="Imágenes/github-logo.png" alt="logo Git"></a>
           
         </footer>
     </body>

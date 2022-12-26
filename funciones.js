@@ -1,10 +1,4 @@
-function foco() {
-  document.getElementById("textoencriptado").focus();
-}
-
 function encriptar(){
- 
-
    let sentencia = document.getElementById("textoencriptado").value.trimStart();
     sentencia;
    sentencia = sentencia
