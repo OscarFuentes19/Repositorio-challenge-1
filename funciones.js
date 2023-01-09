@@ -56,4 +56,5 @@ function aparecerMuneco(){
 function limpiar() {
   document.getElementById("textoencriptado").value = "";
   document.getElementById("textboxdesencriptar").value = "";
+  aparecerMuneco();
 }
